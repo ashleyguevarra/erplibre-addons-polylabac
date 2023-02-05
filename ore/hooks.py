@@ -23,6 +23,7 @@ def pre_init_hook(cr):
         )
 
         company_id = env["res.company"].browse(1)
+        # Force sequence 1, the warehouse will be first will multi-company
         company_id.sequence = 1
 
         user_admin_id = env["res.partner"].browse(
@@ -49,4 +50,7 @@ def post_init_hook(cr, e):
         with tools.file_open(
             partner_img_attachment.local_url[1:], "rb"
         ) as desc_file:
-            partner_id.image = base64.b64encode(desc_file.read())
+            image_data = base64.b64encode(desc_file.read())
+            partner_id.image = image_data
+            # Update favicon web
+            env["res.company"].browse(1).favicon = image_data

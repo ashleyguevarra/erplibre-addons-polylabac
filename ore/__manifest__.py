@@ -6,7 +6,7 @@
     "license": "AGPL-3",
     "website": "https://technolibre.ca",
     "application": True,
-    "depends": ["accorderie"],
+    "depends": ["accorderie", "muk_branding"],
     "data": [
         "data/ir_attachment.xml",
     ],
