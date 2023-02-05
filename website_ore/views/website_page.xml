@@ -294,6 +294,10 @@
             <field name="key">website.accueil.ORE</field>
             <field name="name">ORE</field>
             <field name="type">qweb</field>
+            <field name="website_meta_title">ORE</field>
+            <field name="website_meta_description">Offrir - Recevoir - Échanger
+Plateforme québécoise d'échange de temps</field>
+            <field name="website_meta_og_img">/web/image/ore.ir_attachment_logo_ore_background_svg/logo_ORE_background.svg</field>
         </record>
     </data>
 </odoo>

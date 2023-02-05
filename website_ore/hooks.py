@@ -18,6 +18,7 @@ def post_init_hook(cr, e):
         website_id = website_page.website_id.id
         website_page.view_id = env.ref("website_ore.ir_ui_view_home").id
         website_page.website_id = website_id
+        website_page.website_id.name = "Réseau ORE"
 
         # Update website favicon
         favicon_img_attachment = env.ref(
