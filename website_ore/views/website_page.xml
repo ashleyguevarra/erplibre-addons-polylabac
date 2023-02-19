@@ -26,7 +26,7 @@
                                                 <font style="font-size: 24px;">-</font>
                                                 <font style="font-size: 24px;" class="text-beta">Recevoir</font>
                                                 <font style="font-size: 24px;">-</font>
-                                                <font style="font-size: 24px;" class="text-gamma">Échanger</font>
+                                                <font style="font-size: 24px;" class="text-delta">Échanger</font>
                                                 <font style="font-size: 24px;">, sans devoir
                                                     sortir son portefeuille.
                                                 </font>
@@ -63,15 +63,24 @@
                                                     </h2>
                                                 </div>
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">Offrir de son temps
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Offrir de son temps
                                                     </li>
-                                                    <li class="list-group-item">Offrir un service
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Offrir un service
                                                     </li>
-                                                    <li class="list-group-item">Offrir un accompagnement</li>
-                                                    <li class="list-group-item">Offrir un cours
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Offrir un accompagnement
                                                     </li>
-                                                    <li class="list-group-item">Etc.
+                                                    <li class="list-group-item" style="height: 60.25px;">Offrir un cours
                                                     </li>
+                                                    <li class="list-group-item" style="height: 60.25px;">Etc.</li>
                                                 </ul>
                                                 <div class="card-footer">
                                                     <p>
@@ -106,17 +115,27 @@
                                                     </h2>
                                                 </div>
                                                 <ol class="list-group list-group-flush">
-                                                    <li class="list-group-item">
-                                                        <div style="text-align: center;">Recevoir du temps à partir
-                                                            d'une offre
-                                                        </div>
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Recevoir du temps à partir d'une offre
                                                     </li>
-                                                    <li class="list-group-item">Recevoir un service
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Recevoir un service
                                                     </li>
-                                                    <li class="list-group-item">Recevoir un accompagnement</li>
-                                                    <li class="list-group-item">Recevoir un cours
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Recevoir un accompagnement
                                                     </li>
-                                                    <li class="list-group-item">Etc.</li>
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 60.25px;"
+                                                    >Recevoir un cours
+                                                    </li>
+                                                    <li class="list-group-item" style="height: 60.25px;">Etc.</li>
                                                 </ol>
                                                 <div class="card-footer">
                                                     <p>
@@ -149,17 +168,24 @@
                                                     </h2>
                                                 </div>
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">Échanger contre du temps à dépenser dans
-                                                        des offres
-                                                    </li>
-                                                    <li class="list-group-item">Échanger et accumuler du temps à
-                                                        dépenser plus tard
-                                                    </li>
-                                                    <li class="list-group-item">Échanger contre rémunération (dans
-                                                        certains cas)
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 75px;"
+                                                    >Échanger contre du temps à dépenser dans des offres
                                                     </li>
                                                     <li
                                                         class="list-group-item"
+                                                        style="height: 75px;"
+                                                    >Échanger et accumuler du temps à dépenser plus tard
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 75px;"
+                                                    >Échanger contre rémunération (dans certains cas)
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item"
+                                                        style="height: 75px;"
                                                     >Valider qu'un échange a été réalisé avec un autre membre de la
                                                         communauté
                                                     </li>
@@ -209,7 +235,7 @@
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip52966"
-                                                        style="width: 25%;"
+                                                        style="width: 25%; border: none;"
                                                     />
                                                 </a>
                                             </div>
@@ -232,9 +258,7 @@
                                                 </h3>
                                                 <p groups="base.group_user">Magasiner les offres avant de s'inscrire
                                                 </p>
-                                                <p>
-                                                    {{ nb_offre_service }} offres dans la communauté
-                                                </p>
+                                                <p>{{ nb_offre_service }} offres dans la communauté</p>
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/explorer"
@@ -253,8 +277,8 @@
                                             </div>
                                             <div class="item" groups="base.group_user">
                                                 <h3>Communauté</h3>
-                                                <p>Par ici pour découvrir la communauté
-                                                </p>
+                                                <p>Par ici pour découvrir</p>
+                                                <p>la communauté</p>
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/communaute"
@@ -267,11 +291,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 bg-gamma">
+                                        <div class="col-lg-4 bg-epsilon">
                                             <div class="item">
                                                 <h3>Aide</h3>
-                                                <p>Besoin d'aide pour vous y retrouver?
-                                                </p>
+                                                <p>Besoin d'aide pour vous</p>
+                                                <p>y retrouver?</p>
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/aide"
@@ -296,8 +320,12 @@
             <field name="type">qweb</field>
             <field name="website_meta_title">ORE</field>
             <field name="website_meta_description">Offrir - Recevoir - Échanger
-Plateforme québécoise d'échange de temps</field>
-            <field name="website_meta_og_img">/web/image/ore.ir_attachment_logo_ore_background_svg/logo_ORE_background.svg</field>
+                Plateforme québécoise d'échange de temps
+            </field>
+            <field
+                name="website_meta_og_img"
+            >/web/image/ore.ir_attachment_logo_ore_background_svg/logo_ORE_background.svg
+            </field>
         </record>
     </data>
 </odoo>
