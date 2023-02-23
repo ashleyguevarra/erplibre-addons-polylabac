@@ -93,7 +93,7 @@
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip869209"
-                                                        groups="base.group_user"
+                                                        groups="base.group_user,base.group_portal"
                                                     >OFFRIR
                                                     </a>
                                                 </div>
@@ -149,7 +149,7 @@
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip297156"
-                                                        groups="base.group_user"
+                                                        groups="base.group_user,base.group_portal"
                                                     >RECEVOIR
                                                     </a>
                                                 </div>
@@ -201,7 +201,7 @@
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip351000"
-                                                        groups="base.group_user"
+                                                        groups="base.group_user,base.group_portal"
                                                     >ECHANGER
                                                     </a>
                                                 </div>
@@ -243,7 +243,6 @@
                                     </div>
                                 </div>
                             </section>
-<!--                            <section class="s_clonable_boxes pb32 pt40" groups="base.group_user">-->
                             <section class="s_clonable_boxes pb32 pt40">
                                 <div class="container">
                                     <div class="row">
@@ -253,10 +252,10 @@
                                                     {{ nb_offre_service }} offres dans la communauté
                                                 </h3>
                                             </div>
-                                            <div class="item" groups="base.group_user">
+                                            <div class="item" groups="base.group_user,base.group_portal">
                                                 <h3>Consulter les offres
                                                 </h3>
-                                                <p groups="base.group_user">Magasiner les offres avant de s'inscrire
+                                                <p groups="base.group_user,base.group_portal">Magasiner les offres avant de s'inscrire
                                                 </p>
                                                 <p>{{ nb_offre_service }} offres dans la communauté</p>
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
@@ -275,7 +274,7 @@
                                             <div class="item" groups="base.group_public">
                                                 <h3>Communauté</h3>
                                             </div>
-                                            <div class="item" groups="base.group_user">
+                                            <div class="item" groups="base.group_user,base.group_portal">
                                                 <h3>Communauté</h3>
                                                 <p>Par ici pour découvrir</p>
                                                 <p>la communauté</p>
