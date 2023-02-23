@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="ir_ui_view_login_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_login">
+                    <xpath expr="//h2[@id='membre_accorderie']" position="replace">
+                        <h2 id="membre_accorderie">membre de ORE</h2>
+                    </xpath>
+                    <xpath expr="//section[hasclass('s_login')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_login" />
+            <field name="key">website_ore.ir_ui_view_login_inherit</field>
+            <field name="name">ir_ui_view_login_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_ma_presentation_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_ma_presentation">
+                    <xpath expr="//section[hasclass('oe_img_bg')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_ma_presentation" />
+            <field name="key">website_ore.ir_ui_view_ma_presentation_inherit</field>
+            <field name="name">ir_ui_view_ma_presentation_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_explorer_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_explorer">
+                    <xpath expr="//section[hasclass('s_search')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_explorer" />
+            <field name="key">website_ore.ir_ui_view_explorer_inherit</field>
+            <field name="name">ir_ui_view_explorer_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_mes_groupes_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mes_groupes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mes_groupes" />
+            <field name="key">website_ore.ir_ui_view_mes_groupes_inherit</field>
+            <field name="name">ir_ui_view_mes_groupes_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_messages_et_notifications_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_messages_et_notifications">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_messages_et_notifications" />
+            <field name="key">website_ore.ir_ui_view_messages_et_notifications_inherit</field>
+            <field name="name">ir_ui_view_messages_et_notifications_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_mon_profil_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_profil" />
+            <field name="key">website_ore.ir_ui_view_mon_profil_inherit</field>
+            <field name="name">ir_ui_view_mon_profil_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_mon_activite_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_activite">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-1')]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-2')]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-3')]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-4')]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-5')]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_activite" />
+            <field name="key">website_ore.ir_ui_view_mon_activite_inherit</field>
+            <field name="name">ir_ui_view_mon_activite_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_mon_reseau_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_reseau">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_reseau" />
+            <field name="key">website_ore.ir_ui_view_mon_reseau_inherit</field>
+            <field name="name">ir_ui_view_mon_reseau_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_echanges_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_echanges">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_echanges" />
+            <field name="key">website_ore.ir_ui_view_echanges_inherit</field>
+            <field name="name">ir_ui_view_echanges_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_communaute_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_communaute">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_communaute" />
+            <field name="key">website_ore.ir_ui_view_communaute_inherit</field>
+            <field name="name">ir_ui_view_communaute_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_communaute_1_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_communaute_1">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_communaute_1" />
+            <field name="key">website_ore.ir_ui_view_communaute_1_inherit</field>
+            <field name="name">ir_ui_view_communaute_1_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_communaute_2_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_communaute_2">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_communaute_2" />
+            <field name="key">website_ore.ir_ui_view_communaute_2_inherit</field>
+            <field name="name">ir_ui_view_communaute_2_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_membres_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_membres">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_membres" />
+            <field name="key">website_ore.ir_ui_view_membres_inherit</field>
+            <field name="name">ir_ui_view_membres_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+    </data>
+</odoo>
