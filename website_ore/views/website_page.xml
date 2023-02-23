@@ -255,7 +255,9 @@
                                             <div class="item" groups="base.group_user,base.group_portal">
                                                 <h3>Consulter les offres
                                                 </h3>
-                                                <p groups="base.group_user,base.group_portal">Magasiner les offres avant de s'inscrire
+                                                <p
+                                                    groups="base.group_user,base.group_portal"
+                                                >Magasiner les offres avant de s'inscrire
                                                 </p>
                                                 <p>{{ nb_offre_service }} offres dans la communauté</p>
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
