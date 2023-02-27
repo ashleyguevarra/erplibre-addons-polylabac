@@ -108,7 +108,10 @@
                     <xpath expr="//a[hasclass('bilan-2')]" position="attributes">
                         <attribute name="style" />
                     </xpath>
-                    <xpath expr="//a[hasclass('bilan-3')]" position="attributes">
+                    <xpath expr="//a[hasclass('bilan-3')][1]" position="attributes">
+                        <attribute name="style" />
+                    </xpath>
+                    <xpath expr="//a[hasclass('bilan-3')][2]" position="attributes">
                         <attribute name="style" />
                     </xpath>
                     <xpath expr="//a[hasclass('bilan-4')]" position="attributes">
