@@ -77,22 +77,21 @@
                                                 <ul class="list-group list-group-flush">
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Offrir de son temps
                                                     </li>
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Offrir un service
                                                     </li>
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Offrir un accompagnement
                                                     </li>
-                                                    <li class="list-group-item" style="height: 60.25px;">Offrir un cours
+                                                    <li class="list-group-item" style="height: 75.02px;">Offrir un cours
                                                     </li>
-                                                    <li class="list-group-item" style="height: 60.25px;">Etc.</li>
                                                 </ul>
                                                 <div class="card-footer">
                                                     <p>
@@ -142,25 +141,24 @@
                                                 <ol class="list-group list-group-flush">
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Recevoir du temps à partir d'une offre
                                                     </li>
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Recevoir un service
                                                     </li>
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Recevoir un accompagnement
                                                     </li>
                                                     <li
                                                         class="list-group-item"
-                                                        style="height: 60.25px;"
+                                                        style="height: 75.02px;"
                                                     >Recevoir un cours
                                                     </li>
-                                                    <li class="list-group-item" style="height: 60.25px;">Etc.</li>
                                                 </ol>
                                                 <div class="card-footer">
                                                     <p>
