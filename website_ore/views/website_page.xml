@@ -48,7 +48,20 @@
                                     <div class="row">
                                         <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb16" data-name="Box">
                                             <div class="card bg-alpha">
-                                                <h4 class="card-header">OFFRIR</h4>
+                                                <div class="text-center" style="background-color: white">
+                                                    <img
+                                                        class="img-fluid o_we_custom_image"
+                                                        src="/web/image/website_ore.ir_attachment_o_png/o.png"
+                                                        data-original-title=""
+                                                        title=""
+                                                        aria-describedby="tooltip729222"
+                                                        style="width: 50%;"
+                                                    />
+                                                </div>
+                                                <h4
+                                                    class="card-header text-alpha"
+                                                    style="background-color: white"
+                                                >OFFRIR</h4>
                                                 <div class="card-body text-center">
                                                     <h2 class="card-title">
                                                         <img
@@ -100,7 +113,20 @@
                                         </div>
                                         <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb0" data-name="Box">
                                             <div class="card bg-beta">
-                                                <h4 class="card-header">RECEVOIR</h4>
+                                                <div class="text-center" style="background-color: white">
+                                                    <img
+                                                        class="img-fluid o_we_custom_image"
+                                                        src="/web/image/website_ore.ir_attachment_r_png/r.png"
+                                                        data-original-title=""
+                                                        title=""
+                                                        aria-describedby="tooltip729222"
+                                                        style="width: 50%;"
+                                                    />
+                                                </div>
+                                                <h4
+                                                    class="card-header text-beta"
+                                                    style="background-color: white"
+                                                >RECEVOIR</h4>
                                                 <div class="card-body text-center">
                                                     <h2 class="card-title">
                                                         <img
@@ -156,7 +182,20 @@
                                         </div>
                                         <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb16" data-name="Box">
                                             <div class="card bg-epsilon">
-                                                <h4 class="card-header">ECHANGER</h4>
+                                                <div class="text-center" style="background-color: white">
+                                                    <img
+                                                        class="img-fluid o_we_custom_image"
+                                                        src="/web/image/website_ore.ir_attachment_e_png/e.png"
+                                                        data-original-title=""
+                                                        title=""
+                                                        aria-describedby="tooltip729222"
+                                                        style="width: 50%;"
+                                                    />
+                                                </div>
+                                                <h4
+                                                    class="card-header text-epsilon"
+                                                    style="background-color: white"
+                                                >ECHANGER</h4>
                                                 <div class="card-body text-center">
                                                     <h2 class="card-title">
                                                         <img
