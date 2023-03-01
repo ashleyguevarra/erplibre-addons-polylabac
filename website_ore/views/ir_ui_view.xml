@@ -58,6 +58,32 @@
             <field name="name">ir_ui_view_mon_accorderie_inherit</field>
             <field name="type">qweb</field>
         </record>
+        <record id="ir_ui_view_offres_recentes_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service">
+                    <xpath expr="//img[@id='offres_recentes_accorderie']" position="replace">
+                        <img id="offres_recentes_accorderie" style="float: left; width:100px; height 100px;" src="/website_ore/static/src/img/O.svg" />
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service" />
+            <field name="key">website_ore.ir_ui_view_offres_recentes_inherit</field>
+            <field name="name">ir_ui_view_offres_recentes_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_demandes_recentes_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service">
+                    <xpath expr="//img[@id='demandes_recentes_accorderie']" position="replace">
+                        <img id="demandes_recentes_accorderie" style="float: left; width:100px; height 100px;" src="/website_ore/static/src/img/R.svg" />
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service" />
+            <field name="key">website_ore.ir_ui_view_demandes_recentes_inherit</field>
+            <field name="name">ir_ui_view_demandes_recentes_inherit</field>
+            <field name="type">qweb</field>
+        </record>
         <record id="ir_ui_view_ma_presentation_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_ma_presentation">
