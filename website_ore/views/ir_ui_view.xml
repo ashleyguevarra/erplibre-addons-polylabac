@@ -73,6 +73,36 @@
             <field name="name">ir_ui_view_ma_presentation_inherit</field>
             <field name="type">qweb</field>
         </record>
+        <record id="accorderie_offre_service_unit_liste_offre_et_demande_service_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.accorderie_offre_service_unit_liste_offre_et_demande_service">
+                    <xpath expr="//section[hasclass('oe_img_bg')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_unit_liste_offre_et_demande_service" />
+            <field name="key">website_ore.accorderie_offre_service_unit_liste_offre_et_demande_service_inherit</field>
+            <field name="name">accorderie_offre_service_unit_liste_offre_et_demande_service_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="accorderie_demande_service_unit_liste_offre_et_demande_service_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.accorderie_demande_service_unit_liste_offre_et_demande_service">
+                    <xpath expr="//section[hasclass('oe_img_bg')]" position="attributes">
+                        <attribute
+                            name="style"
+                        >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.accorderie_demande_service_unit_liste_offre_et_demande_service" />
+            <field name="key">website_ore.accorderie_demande_service_unit_liste_offre_et_demande_service_inherit</field>
+            <field name="name">accorderie_demande_service_unit_liste_offre_et_demande_service_inherit</field>
+            <field name="type">qweb</field>
+        </record>
         <record id="ir_ui_view_explorer_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_explorer">
