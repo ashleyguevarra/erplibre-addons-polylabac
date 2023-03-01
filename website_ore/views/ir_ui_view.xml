@@ -19,6 +19,32 @@
             <field name="name">ir_ui_view_login_inherit</field>
             <field name="type">qweb</field>
         </record>
+        <record id="ir_ui_view_navbar_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.layout">
+                    <xpath expr="//span[@id='participer_navbar_accorderie']" position="replace">
+                        <span id="participer_navbar_accorderie">ORE-Participer</span>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.layout" />
+            <field name="key">website_ore.ir_ui_view_navbar_inherit</field>
+            <field name="name">ir_ui_view_navbar_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_footer_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_footer">
+                    <xpath expr="//h5[@id='participer_footer_accorderie']" position="replace">
+                        <h5 id="participer_footer_accorderie">ORE-Participer</h5>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_footer" />
+            <field name="key">website_ore.ir_ui_view_footer_inherit</field>
+            <field name="name">ir_ui_view_footer_inherit</field>
+            <field name="type">qweb</field>
+        </record>
         <record id="ir_ui_view_ma_presentation_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_ma_presentation">
