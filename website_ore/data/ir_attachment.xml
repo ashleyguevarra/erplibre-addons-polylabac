@@ -33,29 +33,29 @@
             <field name="type">url</field>
             <field name="url">/website_ore/static/src/img/icon_ore_recevoir.png</field>
         </record>
-        <record id="ir_attachment_o_png" model="ir.attachment">
-            <field name="datas_fname">o.png</field>
-            <field name="name">o.png</field>
+        <record id="ir_attachment_o_svg" model="ir.attachment">
+            <field name="datas_fname">O.svg</field>
+            <field name="name">O.svg</field>
             <field name="public">True</field>
             <field name="res_model">ir.ui.view</field>
             <field name="type">url</field>
-            <field name="url">/website_ore/static/src/img/o.png</field>
+            <field name="url">/website_ore/static/src/img/O.svg</field>
         </record>
-        <record id="ir_attachment_r_png" model="ir.attachment">
-            <field name="datas_fname">r.png</field>
-            <field name="name">r.png</field>
+        <record id="ir_attachment_r_svg" model="ir.attachment">
+            <field name="datas_fname">R.svg</field>
+            <field name="name">R.svg</field>
             <field name="public">True</field>
             <field name="res_model">ir.ui.view</field>
             <field name="type">url</field>
-            <field name="url">/website_ore/static/src/img/r.png</field>
+            <field name="url">/website_ore/static/src/img/R.svg</field>
         </record>
-        <record id="ir_attachment_e_png" model="ir.attachment">
-            <field name="datas_fname">e.png</field>
-            <field name="name">e.png</field>
+        <record id="ir_attachment_e_svg" model="ir.attachment">
+            <field name="datas_fname">E.svg</field>
+            <field name="name">E.svg</field>
             <field name="public">True</field>
             <field name="res_model">ir.ui.view</field>
             <field name="type">url</field>
-            <field name="url">/website_ore/static/src/img/e.png</field>
+            <field name="url">/website_ore/static/src/img/E.svg</field>
         </record>
     </data>
 </odoo>
