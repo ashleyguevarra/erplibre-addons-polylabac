@@ -45,6 +45,19 @@
             <field name="name">ir_ui_view_footer_inherit</field>
             <field name="type">qweb</field>
         </record>
+        <record id="ir_ui_view_mon_accorderie_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
+                    <xpath expr="//span[@id='mon_accorderie']" position="replace">
+                        <span id="mon_accorderie">Mon ORE: {{personal.mon_accorderie.name}}</span>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_profil" />
+            <field name="key">website_ore.ir_ui_view_mon_accorderie_inherit</field>
+            <field name="name">ir_ui_view_mon_accorderie_inherit</field>
+            <field name="type">qweb</field>
+        </record>
         <record id="ir_ui_view_ma_presentation_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_ma_presentation">
