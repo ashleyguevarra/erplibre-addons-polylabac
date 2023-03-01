@@ -100,11 +100,12 @@
                                                     </p>
                                                     <a
                                                         href="/participer#!?state=init.pos.single"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-alpha"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip869209"
                                                         groups="base.group_user,base.group_portal"
+                                                        style="background-color: white;"
                                                     >OFFRIR
                                                     </a>
                                                 </div>
@@ -168,11 +169,12 @@
                                                     </p>
                                                     <a
                                                         href="/participer#!?state=init.pds.single"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-beta"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip297156"
                                                         groups="base.group_user,base.group_portal"
+                                                        style="background-color: white;"
                                                     >RECEVOIR
                                                     </a>
                                                 </div>
@@ -233,11 +235,12 @@
                                                     </p>
                                                     <a
                                                         href="/participer#!?state=init.saa"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-epsilon"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip351000"
                                                         groups="base.group_user,base.group_portal"
+                                                        style="background-color: white;"
                                                     >ECHANGER
                                                     </a>
                                                 </div>
@@ -299,11 +302,12 @@
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/explorer"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-alpha"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip51707"
-                                                    >Parcourir
+                                                        style="background-color: white;"
+                                                    >PARCOURIR
                                                     </a>
                                                 </div>
                                             </div>
@@ -319,11 +323,12 @@
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/communaute"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-beta"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip376413"
-                                                    >Découvrir
+                                                        style="background-color: white;"
+                                                    >DÉCOUVRIR
                                                     </a>
                                                 </div>
                                             </div>
@@ -336,11 +341,12 @@
                                                 <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/aide"
-                                                        class="btn btn-outline-delta rounded-circle btn-sm"
+                                                        class="btn btn-outline-black rounded-circle btn-sm text-epsilon"
                                                         data-original-title=""
                                                         title=""
                                                         aria-describedby="tooltip992072"
-                                                    >Aide
+                                                        style="background-color: white;"
+                                                    >AIDE
                                                     </a>
                                                 </div>
                                             </div>
