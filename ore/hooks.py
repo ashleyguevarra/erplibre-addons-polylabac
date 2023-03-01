@@ -95,8 +95,6 @@ def post_init_hook(cr, e):
                 if item.body_html is not False:
                     item.body_html = update_accorderie(item.body_html)
 
-            print("fd")
-
 
 def update_accorderie(txt):
     txt = txt.replace(
