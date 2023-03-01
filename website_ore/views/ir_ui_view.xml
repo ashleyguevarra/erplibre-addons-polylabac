@@ -83,7 +83,10 @@
                     </xpath>
                 </data>
             </field>
-            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_unit_liste_offre_et_demande_service" />
+            <field
+                name="inherit_id"
+                ref="website_accorderie.accorderie_offre_service_unit_liste_offre_et_demande_service"
+            />
             <field name="key">website_ore.accorderie_offre_service_unit_liste_offre_et_demande_service_inherit</field>
             <field name="name">accorderie_offre_service_unit_liste_offre_et_demande_service_inherit</field>
             <field name="type">qweb</field>
@@ -98,7 +101,10 @@
                     </xpath>
                 </data>
             </field>
-            <field name="inherit_id" ref="website_accorderie.accorderie_demande_service_unit_liste_offre_et_demande_service" />
+            <field
+                name="inherit_id"
+                ref="website_accorderie.accorderie_demande_service_unit_liste_offre_et_demande_service"
+            />
             <field name="key">website_ore.accorderie_demande_service_unit_liste_offre_et_demande_service_inherit</field>
             <field name="name">accorderie_demande_service_unit_liste_offre_et_demande_service_inherit</field>
             <field name="type">qweb</field>
