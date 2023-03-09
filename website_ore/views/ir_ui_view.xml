@@ -60,28 +60,119 @@
         </record>
         <record id="ir_ui_view_offres_recentes_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
-                <data inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service">
+                <data
+                    inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service"
+                >
                     <xpath expr="//img[@id='offres_recentes_accorderie']" position="replace">
-                        <img id="offres_recentes_accorderie" style="float: left; width:100px; height 100px;" src="/website_ore/static/src/img/O.svg" />
+                        <img
+                            id="offres_recentes_accorderie"
+                            style="float: left; width:100px; height 100px;"
+                            src="/website_ore/static/src/img/O.svg"
+                        />
                     </xpath>
                 </data>
             </field>
-            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service" />
+            <field
+                name="inherit_id"
+                ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service"
+            />
             <field name="key">website_ore.ir_ui_view_offres_recentes_inherit</field>
             <field name="name">ir_ui_view_offres_recentes_inherit</field>
             <field name="type">qweb</field>
         </record>
         <record id="ir_ui_view_demandes_recentes_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
-                <data inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service">
+                <data
+                    inherit_id="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service"
+                >
                     <xpath expr="//img[@id='demandes_recentes_accorderie']" position="replace">
-                        <img id="demandes_recentes_accorderie" style="float: left; width:100px; height 100px;" src="/website_ore/static/src/img/R.svg" />
+                        <img
+                            id="demandes_recentes_accorderie"
+                            style="float: left; width:100px; height 100px;"
+                            src="/website_ore/static/src/img/R.svg"
+                        />
                     </xpath>
                 </data>
             </field>
-            <field name="inherit_id" ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service" />
+            <field
+                name="inherit_id"
+                ref="website_accorderie.accorderie_offre_service_and_accorderie_demande_service_list_liste_offre_et_demande_service"
+            />
             <field name="key">website_ore.ir_ui_view_demandes_recentes_inherit</field>
             <field name="name">ir_ui_view_demandes_recentes_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_background_profil_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
+                    <xpath expr="//div[@id='background_white_profil']" position="replace">
+                        <div
+                            id="background_white_profil"
+                            style="background-color: rgba(255, 255, 255, 0.5); border-radius: 10px;"
+                        >
+                            <div class="profile_infos" style="margin: 10px;">
+                                <div
+                                    class="profile_pic rounded-circle"
+                                    ng-style="{'background-image': 'url(' + personal.ma_photo + ')'}"
+                                >
+                                    <i class="fa fa-shield text-color-title" />
+                                </div>
+                                <div class="profile_banner_info" style="white-space: nowrap;">
+                                    <p class="profile_name text-color-title">{{personal.full_name}}</p>
+                                    <p class="profile_hrs text-color-title">
+                                        <i class="fa fa-clock-o" />&amp;nbsp;<span
+                                            ng-class="{neg_time_2: !personal.actual_bank_sign}"
+                                        >{{personal.actual_bank_time_human_simplify}}</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_profil" />
+            <field name="key">website_ore.ir_ui_view_background_profil_inherit</field>
+            <field name="name">ir_ui_view_background_profil_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_btn_accorderie_profil_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
+                    <xpath expr="//div[@id='btn_accorderie_profil']" position="replace">
+                        <div
+                            id="btn_accorderie_profil"
+                            class="profile_btn btn accorderie text-color-title debug_unimplemented"
+                            style="background-color: white; border-radius: 15px;"
+                        >
+                            <i class="fa fa-smile-o" />
+                            <span id="mon_accorderie"> Mon accorderie: {{personal.mon_accorderie.name}}</span>
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_profil" />
+            <field name="key">website_ore.ir_ui_view_btn_accorderie_profil_inherit</field>
+            <field name="name">ir_ui_view_btn_accorderie_profil_inherit</field>
+            <field name="type">qweb</field>
+        </record>
+        <record id="ir_ui_view_btn_disconnect_profil_profil_inherit" model="ir.ui.view">
+            <field name="arch" type="xml">
+                <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
+                    <xpath expr="//div[@id='btn_disconnect_profil']" position="replace">
+                        <div
+                            id="btn_disconnect_profil"
+                            class="profile_btn btn disconnect text-color-title"
+                            style="background-color: white; border-radius: 15px;"
+                        >
+                            <i class="fa fa-power-off" />&amp;nbsp;Se déconnecter
+                        </div>
+                    </xpath>
+                </data>
+            </field>
+            <field name="inherit_id" ref="website_accorderie.ir_ui_view_mon_profil" />
+            <field name="key">website_ore.ir_ui_view_btn_disconnect_profil_profil_inherit</field>
+            <field name="name">ir_ui_view_btn_disconnect_profil_profil_inherit</field>
             <field name="type">qweb</field>
         </record>
         <record id="ir_ui_view_ma_presentation_inherit" model="ir.ui.view">
