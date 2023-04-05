@@ -7,7 +7,7 @@
                     <xpath expr="//h2[@id='membre_accorderie']" position="replace">
                         <h2 id="membre_accorderie">membre de ORE</h2>
                     </xpath>
-                    <xpath expr="//section[hasclass('s-login')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_login')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
@@ -110,18 +110,18 @@
                             id="background_white_profil"
                             style="background-color: rgba(255, 255, 255, 0.5); border-radius: 10px;"
                         >
-                            <div class="profile-infos" style="margin: 10px;">
+                            <div class="profile_infos" style="margin: 10px;">
                                 <div
-                                    class="profile-pic rounded-circle"
+                                    class="profile_pic rounded-circle"
                                     ng-style="{'background-image': 'url(' + personal.ma_photo + ')'}"
                                 >
                                     <i class="fa fa-shield text-color-title" />
                                 </div>
-                                <div class="profile-banner-info" style="white-space: nowrap;">
-                                    <p class="profile-name text-color-title">{{personal.full_name}}</p>
-                                    <p class="profile-hrs text-color-title">
+                                <div class="profile_banner_info" style="white-space: nowrap;">
+                                    <p class="profile_name text-color-title">{{personal.full_name}}</p>
+                                    <p class="profile_hrs text-color-title">
                                         <i class="fa fa-clock-o" />&amp;nbsp;<span
-                                            ng-class="{neg-time-2: !personal.actual_bank_sign}"
+                                            ng-class="{neg_time_2: !personal.actual_bank_sign}"
                                         >{{personal.actual_bank_time_human_simplify}}</span>
                                     </p>
                                 </div>
@@ -141,7 +141,7 @@
                     <xpath expr="//div[@id='btn_accorderie_profil']" position="replace">
                         <div
                             id="btn_accorderie_profil"
-                            class="profile-btn btn accorderie text-color-title debug_unimplemented"
+                            class="profile_btn btn accorderie text-color-title debug_unimplemented"
                             style="background-color: white; border-radius: 15px;"
                         >
                             <i class="fa fa-smile-o" />
@@ -162,7 +162,7 @@
                     <xpath expr="//div[@id='btn_disconnect_profil']" position="replace">
                         <div
                             id="btn_disconnect_profil"
-                            class="profile-btn btn disconnect text-color-title"
+                            class="profile_btn btn disconnect text-color-title"
                             style="background-color: white; border-radius: 15px;"
                         >
                             <i class="fa fa-power-off" />&amp;nbsp;Se déconnecter
@@ -229,7 +229,7 @@
         <record id="ir_ui_view_explorer_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_explorer">
-                    <xpath expr="//section[hasclass('s-search')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_search')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_finale_1521_x_980.png&quot;);</attribute>
@@ -244,7 +244,7 @@
         <record id="ir_ui_view_mes_groupes_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_mes_groupes">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -259,7 +259,7 @@
         <record id="ir_ui_view_messages_et_notifications_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_messages_et_notifications">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -274,7 +274,7 @@
         <record id="ir_ui_view_mon_profil_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_mon_profil">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -289,7 +289,7 @@
         <record id="ir_ui_view_mon_activite_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_mon_activite">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -322,7 +322,7 @@
         <record id="ir_ui_view_mon_reseau_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_mon_reseau">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -337,7 +337,7 @@
         <record id="ir_ui_view_echanges_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_echanges">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -352,7 +352,7 @@
         <record id="ir_ui_view_communaute_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_communaute">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -367,7 +367,7 @@
         <record id="ir_ui_view_communaute_1_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_communaute_1">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -382,7 +382,7 @@
         <record id="ir_ui_view_communaute_2_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_communaute_2">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>
@@ -397,7 +397,7 @@
         <record id="ir_ui_view_membres_inherit" model="ir.ui.view">
             <field name="arch" type="xml">
                 <data inherit_id="website_accorderie.ir_ui_view_membres">
-                    <xpath expr="//section[hasclass('s-title-banner')]" position="attributes">
+                    <xpath expr="//section[hasclass('s_title_banner')]" position="attributes">
                         <attribute
                             name="style"
                         >background-image: url(&quot;/website_ore/static/src/img/image_ORE_3841_x_1601.png&quot;);</attribute>

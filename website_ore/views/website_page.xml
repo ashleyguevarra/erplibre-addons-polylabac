@@ -10,7 +10,7 @@
                             <section class="s_comparisons pt48 pb24 oe_custom_bg" style="">
                                 <div class="container">
                                     <div class="row s_nb_column_fixed">
-                                        <div class="col-lg-12 s-title pt16 pb16" style="text-align: center;">
+                                        <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
                                             <h1 class="s_title_thin">
                                                 <img
                                                     class="img-fluid o_we_custom_image"
@@ -299,7 +299,7 @@
                                                 >Magasiner les offres avant de s'inscrire
                                                 </p>
                                                 <p>{{ nb_offre_service }} offres dans la communauté</p>
-                                                <div class="s-btn text-center pt16 pb16" data-name="Buttons">
+                                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/explorer"
                                                         class="btn btn-outline-black rounded-circle btn-sm text-alpha"
@@ -320,7 +320,7 @@
                                                 <h3>Communauté</h3>
                                                 <p>Par ici pour découvrir</p>
                                                 <p>la communauté</p>
-                                                <div class="s-btn text-center pt16 pb16" data-name="Buttons">
+                                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/communaute"
                                                         class="btn btn-outline-black rounded-circle btn-sm text-beta"
@@ -338,7 +338,7 @@
                                                 <h3>Aide</h3>
                                                 <p>Besoin d'aide pour vous</p>
                                                 <p>y retrouver?</p>
-                                                <div class="s-btn text-center pt16 pb16" data-name="Buttons">
+                                                <div class="s_btn text-center pt16 pb16" data-name="Buttons">
                                                     <a
                                                         href="/aide"
                                                         class="btn btn-outline-black rounded-circle btn-sm text-epsilon"
